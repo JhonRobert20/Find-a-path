@@ -4,7 +4,7 @@ from queue import PriorityQueue
 
 WIDTH = 800
 WIN = pygame.display.set_mode((WIDTH, WIDTH))
-pygame.display.set_caption("A* Path Finding Algorithm")
+pygame.display.set_caption("SHORT_WAY")
 
 #Colors
 RED = (255, 0, 0)
@@ -82,8 +82,7 @@ class Spot:
         if self.col > 0 and not grid[self.row][self.col - 1].is_barrier(): #LEFT
             self.neightbors.append(grid[self.row ][self.col -1])
 
-    def __1t__(self, other):
-        return False
+    
     
 def h(p1, p2):
     x1, y1 = p1
