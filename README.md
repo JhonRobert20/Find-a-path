@@ -1,4 +1,4 @@
-# Find a path, Idea basada en proyectos universitarios)
+# Find a path, Idea basada en proyectos universitarios
 
 # Instalación
 
